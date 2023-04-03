@@ -1,0 +1,131 @@
+.container__header {
+  background: var(--body-color);
+  
+  font-family: var(--font-poppins);
+
+}
+.btnres{
+  width: 17px;
+  height: 17px;
+  background: var(--body-color);
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
+  display: none;
+  font-size: 18px;
+}
+.container__header header {
+  width: 100%;
+  padding: 0px 10.5%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 115px;
+
+  
+}
+.leftheader {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4%;
+}
+.leftheader__logos {
+  display: flex;
+  max-width: 40%;
+  
+  
+}
+.imgLogo{
+  max-width: 23.6%;
+}
+.leftheader__input {
+  width: 60%;
+  display: flex;
+  height: 40px;
+  
+}
+.leftheader__input input {
+  width: 90%;
+
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border: none;
+  background: var(--text-color2);
+  padding-left: 10px;
+  color: var(--text-color);
+  height: 100%;
+  font-weight: bold;
+}
+
+.btnNav {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+  background: var(--text-color2);
+  color: gray;
+  height: 100%;
+  
+}
+.btnNav:hover {
+  cursor: pointer;
+  color: var(--text-color3);
+}
+.titlelogo {
+  color: var(--text-color);
+  width: 17.3%;
+}
+.spanAlura {
+  color: var(--text-color3);
+}
+
+.login {
+  backface-visibility: hidden;
+  width: 17%;
+  border: solid var(--text-color3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: var(--text-color3);
+  cursor: pointer;
+    font-weight: 600;
+  font-family: Circular, Helvetica, sans-serif;
+  font-size: 1rem;
+
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  padding: 1rem 1.25rem;
+
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform 0.2s;
+  user-select: none;
+  --webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.login:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.login:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(0.125rem);
+}
+
+
+
+.login:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+

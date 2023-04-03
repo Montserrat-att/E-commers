@@ -1,0 +1,129 @@
+
+
+@media screen and (max-width:768px){
+    
+    .container__header header{
+        padding: 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .leftheader__input{
+        display: none;
+    }
+    .btnres{
+        display: block;
+    }
+    .login{
+        width: 130px;
+        height: 40px;
+    }
+    .leftheader__logos{
+        width: 100px;
+    }
+    .banner{
+        height: 250px;
+        margin-bottom: 16px;
+    }
+    .banner__container{
+        padding: 0 2%;
+        padding-top: 100px;
+    }
+    .banner__title{
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .banner__description{
+        font-size: 14px;
+    }
+    .banner__btn{
+        width: 120px;
+        font-size: 14px;
+    }
+    .main__container{
+        padding: 0 2%;
+       margin-top: 0;
+       margin-bottom: 16px;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container__box{
+        flex-basis: calc(48% ); 
+        margin-bottom: 16px;
+  
+    }
+    .container__title{
+        font-size: 22px;
+    }
+    .container__todo{
+        font-size: 14px;
+    }
+    .container__nav{
+        margin-bottom: 16px;
+    }
+    .pro{
+        font-size: 14px;
+    }
+    .container__producto{
+        font-size: 14px;
+    }
+    .contact{
+        padding: 2%;
+        
+       
+    }
+    .contact-main{
+        flex-direction: column;
+        justify-content: center;
+        padding: 16px;
+        
+        
+        
+    }
+    .contact__logo{
+        width: 100%;
+       padding: 0;
+        margin-bottom: 32px;
+      gap:  2px;
+     
+      display: flex;
+      justify-content: center;
+    }
+    .contact__logo .titlelogo{
+        
+        width: 110px;
+        text-align: end;
+    }
+    .contact__logo .imgLogo{
+        width: 40px;
+       
+        margin-right: -10px;
+       
+    }
+    .contact__more{
+        width: 100%;
+        margin: auto;
+       text-align: center;
+        margin-bottom: 32px;
+       
+      
+    }
+    .contact__inputs{
+        width: 100%;
+    }
+    .btncontact{
+        width: 133px;
+        height: 40px;
+    }
+    .contact__mid{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        
+    }
+    
+}
+
+

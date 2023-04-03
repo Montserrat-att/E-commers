@@ -1,0 +1,66 @@
+.section__login{
+    width: 100%;
+    padding: 70px 35.2%;
+   background-color: #FFDE7D;
+   
+    font-family: 'Raleway', sans-serif;
+    
+}
+.sesion__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    
+    margin: auto;
+    
+}
+.sesion{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.input__correo, .input__pass{
+   width: 100%;
+    height: 63px;
+    border-radius: 4px;
+    border: none;
+    color: var(--text-color);
+    padding-left: 20px;
+    background-color: var(--body-color);
+    border: solid 1px var(--text-color3);
+    font-size: 1.125rem;
+}
+
+
+.btn__sesion{
+    width: 100%;
+    background: var(--text-color3);
+    color: var(--body-color);
+    border-radius: 4px;
+    border:  none;
+    font-size: 1.125rem;
+    font-weight: 600;
+    height: 63px;
+   
+}
+.btn__sesion:hover{
+    cursor: pointer;
+    opacity: 90%;
+}
+
+input[type="password"]:focus {
+    outline: none;
+  
+  }
+  input[type="password"]::placeholder {
+    font-weight: lighter;
+  }
+  input[type="text"]:focus {
+    outline: none;
+   
+  }
+  input[type="text"]::placeholder {
+    font-weight: lighter;
+  }
